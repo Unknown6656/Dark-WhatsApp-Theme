@@ -1,0 +1,247 @@
+/* COPYRIGHT © 2015-2016, Unknown6656 */
+
+@font-face {
+    font-family: "Exo 2";
+    src: url("//db.onlinewebfonts.com/t/ef07dc22e614f5520aeed02f4ee75e58.eot");
+    src: url("//db.onlinewebfonts.com/t/ef07dc22e614f5520aeed02f4ee75e58.eot?#iefix") format("embedded-opentype"), 
+         url("//db.onlinewebfonts.com/t/ef07dc22e614f5520aeed02f4ee75e58.woff2") format("woff2"),
+         url("//db.onlinewebfonts.com/t/ef07dc22e614f5520aeed02f4ee75e58.woff") format("woff"),
+         url("//db.onlinewebfonts.com/t/ef07dc22e614f5520aeed02f4ee75e58.ttf") format("truetype"),
+         url("//db.onlinewebfonts.com/t/ef07dc22e614f5520aeed02f4ee75e58.svg#Exo 2") format("svg");
+}
+
+* {
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    text-rendering: optimizeLegibility !important;
+
+    -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.04);
+       -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.04);
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.04);
+
+    font-smooth: always;
+}
+
+body,
+div#app,
+.message-text {
+    font-family: 'Exo 2' !important;
+}
+
+.message,
+.btn-more,
+.media-viewer {
+    background-color: #444 !important;
+}
+
+.tail-container {
+    opacity: 0;
+}
+
+.context,
+.context-in,
+.message::before {
+    display: none;
+}
+
+body,
+div.intro-image,
+div.pane-chat-tile,
+div.message-list,
+.startup, #startup,
+div.pane-chat-tile-container {
+    /* background-color: black; */
+    
+    background-image: url('http://orig12.deviantart.net/2942/f/2013/340/9/3/rammstein_german_eagle_by_m0d1n-d6wyang.png');
+}
+
+.message-text,
+#window *,
+#platforms * {
+    color: #ddd;
+}
+
+.block-compose,
+.backdrop:after,
+.backdrop:before,
+#window, #platforms,
+.pane-footer span *,
+.pane-chat-footer span *,
+.media-panel-header,
+.incoming-msgs {
+    background-color: #222;
+}
+
+.menu-icons * {
+    background-color: transparent !important;
+}
+
+/*
+  .pane:not(.pane-chat):not(.pane-intro),
+*/
+.pane:not(.pane-chat):not(.pane-intro) *:not(.msg):not(.menu-icons),
+.block-message,
+.pane-footer,
+.pane-header:not(.pane-intro) *:not(.menu-icons),
+.pane-chat-header *:not(.menu-icons),
+.pane-header,
+.pane-chat-header,
+.block-compose .input-container,
+.pane-subheader,
+.pane-list-subheader,
+.subheader-search,
+input,
+label,
+button,
+.chatlist *,
+.popup-container,
+.popup-container *,
+[data-reactid=".0.0:$media-modal-manager"] *,
+[data-reactid=".0.0:$main-modal-manager"] *,
+[data-reactid=".0.0:$context-menu-manager"] *,
+[data-reactid=".0.0:$tooltip-manager"] *,
+.drawer-container *,
+.drawer-container-info *,
+.drawer-container-left *,
+.drawer-container-panel * {
+    border-color: #000 !important;
+    background-color: #222 !important;
+    color: #999 !important;
+}
+
+.pane-intro,
+.pane-intro *,
+.app:after,
+.app-wrapper:after,
+.app:before,
+.app-wrapper:before,
+#wrapper:before,
+.message-system,
+.message-system *,
+.msg-unread,
+.msg-unread * {
+    background-color: black !important;
+    color: #aaa !important;
+}
+
+.pane-intro:after {
+    display: none;
+}
+
+.msg,
+.msg-group,
+.pane-chat-msgs,
+.pane-chat-body,
+.pane-preview-wrapper *,
+.pane-preview-wrapper-bg *,
+.message-system,
+.message-system *,
+.msg-unread,
+.msg-unread * {
+    background-color: transparent !important;
+    background-image: url('');
+}
+
+.chat-avatar,
+.chat-avatar *,
+.chat,
+.chat *,
+.spinner-container,
+.menu-icons,
+.menu-icons * {
+    background-color: transparent !important;
+}
+
+.chatlist,
+.chatlist *,
+.chatlist *:hover,
+.icon-media-play,
+.icon-media-play *,
+.block-message {
+    border: transparent !important;
+}
+
+.chatlist *::after,
+.chatlist *:hover::after {
+    display: none;
+}
+
+#window,
+div.app,
+.icon-media-play {
+    border-radius: 30px;
+    border: 2px solid #333;
+}
+
+.intro-text-container,
+.intro-text-container *,
+.input-search {
+    font-family: 'Zentenar Fraktur';
+}
+
+.intro-title {
+    position: relative;
+    margin-top: 0px;
+    font-size: 4em;
+    width: 200%;
+    left: -50%;
+    top: -100%;
+}
+
+.intro-text {
+    line-height: 1em;
+    font-size: 1.7em;
+}
+
+.message-system,
+.message-system *,
+.msg-unread,
+.msg-unread *,
+.message-author,
+.message-system-body,
+.sticky-date-marker-floating-container,
+.sticky-date-marker-floating-wrapper {
+    font-family: 'Zentenar Fraktur';
+    text-transform: lowercase;
+    font-size: 1.2em;
+}
+
+.chat-main,
+.chat-main * {
+    font-family: 'Zentenar Fraktur';
+}
+
+.qrcode {
+    padding: 10px 10px 10px 10px;
+    background-color: #fff;
+}
+
+.intro-image {
+    position: relative;
+    width: 400%;
+    left: -150%;
+    height: 700px;
+}
+
+div.media img {
+    box-shadow: 3px 6px 20px #000000;
+    border-radius: 10px;
+}
+
+.emoji {
+    background-image: url('http://softwareinternational.de/web.whatsapp.com.emoji.png') !important;
+}
+
+.emojik {
+    background-image: url('http://softwareinternational.de/web.whatsapp.com.emojik.png') !important;
+}
+
+.block-message,
+.block-message * {
+    color: #faa !important;
+    font-style: italic;
+    font-size: 1.7em;
+    font-family: 'Zentenar Fraktur';
+}
+
+/* COPYRIGHT © 2015-2016, Unknown6656 */
