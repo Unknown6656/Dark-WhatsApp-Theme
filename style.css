@@ -1,4 +1,4 @@
-/* COPYRIGHT © 2015-2016, Unknown6656 */
+@import url('https://fonts.googleapis.com/css?family=UnifrakturCook:700');
 
 @font-face {font-family: "Exo 2";
     src: url("//db.onlinewebfonts.com/t/ef07dc22e614f5520aeed02f4ee75e58.eot");
@@ -9,51 +9,53 @@
     url("//db.onlinewebfonts.com/t/ef07dc22e614f5520aeed02f4ee75e58.svg#Exo 2") format("svg");
 }
 
-* {
-	 -webkit-font-smoothing: antialiased !important;
-	-moz-osx-font-smoothing: grayscale !important;
-	text-rendering: optimizeLegibility !important;
+/* COPYRIGHT © 2015-2016, Unknown6656 */
 
-	-webkit-text-shadow: 1px 1px 1px rgba(0,0,0,0.04);
-	   -moz-text-shadow: 1px 1px 1px rgba(0,0,0,0.04);
-			text-shadow: 1px 1px 1px rgba(0,0,0,0.04);
-	
-	font-smooth: always;
+* {
+     -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    text-rendering: optimizeLegibility !important;
+
+    -webkit-text-shadow: 1px 1px 1px rgba(0,0,0,0.04);
+       -moz-text-shadow: 1px 1px 1px rgba(0,0,0,0.04);
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.04);
+    
+    font-smooth: always;
 }
 
 .media-caption {
-  color: #ccc !important;
+    color: #ccc !important;
 }
 
 body, div#app, .message-text {
-  font-family: 'Exo 2' !important;
+    font-family: 'Exo 2' !important;
 }
 
 .menu-icons *, .menu-shortcut *, .menu-item * {
- 	background-color: transparent !important; 
+    background-color: transparent !important; 
 }
 
 li, button.menu-icons-item {
-  border-radius: 50px;
+    border-radius: 50px;
 }
 
 .menu-icons-item, .icon-image {
-  background-color: transparent !important;
-  margin: 0;
+    background-color: transparent !important;
+    margin: 0;
 }
 
 .message, .btn-more, .media-viewer {
-  background-color: #444 !important;
+    background-color: #444 !important;
 }
 
 .tail-container {
-  opacity: 0;
+    opacity: 0;
 }
 
 .context,
 .context-in,
 .message::before {
-	display: none;
+    display: none;
 }
 
 body,
@@ -61,18 +63,23 @@ div.intro-image,
 div.pane-chat-tile,
 div.message-list, .startup, #startup,
 div.pane-chat-tile-container {
-  	/* background-color: black; */
-	background-image: url('http://orig12.deviantart.net/2942/f/2013/340/9/3/rammstein_german_eagle_by_m0d1n-d6wyang.png');
+    /* background-color: black; */
+    background-image: url('http://orig12.deviantart.net/2942/f/2013/340/9/3/rammstein_german_eagle_by_m0d1n-d6wyang.png');
+}
+
+body {
+    background-color: #444 !important;
+    background-image: url('http://orig12.deviantart.net/2942/f/2013/340/9/3/rammstein_german_eagle_by_m0d1n-d6wyang.png') !important;
 }
 
 .message-text, .link-preview-container, .link-preview-container *, #window *, #platforms * {
-  color: #ddd;
+    color: #ddd;
 }
 
 .block-compose, .backdrop:after, .backdrop:before, #window, #platforms,
 .pane-footer span *, .pane-chat-footer span *, .media-panel-header,
 .incoming-msgs {
-  background-color: #222;
+    background-color: #222;
 }
 
 /*
@@ -93,41 +100,41 @@ label, button, .chatlist *, .popup-container, .popup-container *,
 .drawer-container-left *, .drawer-container-panel *,
 .link-preview-container, .link-preview-container *
 {
-  border-color: #000 !important;
-  background-color: #222 !important;
-  color: #999 !important;
+    border-color: #000 !important;
+    background-color: #222 !important;
+    color: #999 !important;
 }
 
 .pane-intro, .pane-intro *, .app:after, .app-wrapper:after,
 .app:before, .app-wrapper:before, #wrapper:before,
 .message-system, .message-system *, .msg-unread, .msg-unread * {
-  background-color: black !important;
-  color: #aaa !important;
+    background-color: black !important;
+    color: #aaa !important;
 }
 
 .pane-intro:after {
-  display: none;
+    display: none;
 }
 
 .msg, .msg-group, .pane-chat-msgs, .pane-chat-body,
 .pane-preview-wrapper *, .pane-preview-wrapper-bg *,
 .message-system, .message-system *, .msg-unread, .msg-unread * {
-  background-color: transparent !important;
-  background-image: url('');
+    background-color: transparent !important;
+    background-image: url('');
 }
 
 .chat-avatar, .chat-avatar *, .chat, .chat *, .spinner-container,
 .menu-icons, .menu-icons * {
- 	background-color: transparent !important; 
+    background-color: transparent !important; 
 }
 
 .chatlist, .chatlist *, .chatlist *:hover, .icon-media-play,
 .icon-media-play *, .block-message, {
-  border: transparent !important;
+    border: transparent !important;
 }
 
 .chatlist *::after, .chatlist *:hover::after {
-  display: none;
+    display: none;
 }
 
 #window, div.app, .icon-media-play {
@@ -136,66 +143,66 @@ label, button, .chatlist *, .popup-container, .popup-container *,
 }
 
 .intro-text-container, .intro-text-container *, .input-search {
-  font-family: 'Zentenar Fraktur';
+    font-family: 'UnifrakturCook';
 }
 
 .intro-title {
-  position: relative;
-  margin-top: 0px;
-  font-size: 4em;
-  width: 200%;
-  left: -50%;
-  top: -100%;
+    position: relative;
+    margin-top: 0px;
+    font-size: 4em;
+    width: 200%;
+    left: -50%;
+    top: -100%;
 }
 
 .intro-text {
-  line-height: 1em;
-  font-size: 1.7em;
+    line-height: 1em;
+    font-size: 1.7em;
 }
 
 .message-system, .message-system *, .msg-unread, .msg-unread *,
 .message-author, .message-system-body,
 .sticky-date-marker-floating-container,
 .sticky-date-marker-floating-wrapper {
-  font-family: 'Zentenar Fraktur';
-  text-transform: lowercase;
-  font-size: 1.2em;
+    font-family: 'UnifrakturCook';
+    text-transform: lowercase;
+    font-size: 1.2em;
 }
 
 .chat-main, .chat-main * {
-  font-family: 'Zentenar Fraktur';
+    font-family: 'UnifrakturCook';
 }
 
 .qrcode {
-  padding: 10px 10px 10px 10px;
-  background-color: #fff;
+    padding: 10px 10px 10px 10px;
+    background-color: #fff;
 }
 
 .intro-image {
-  position: relative;
-  width: 400%;
-  left: -150%;
-  height: 700px;
+    position: relative;
+    width: 400%;
+    left: -150%;
+    height: 700px;
 }
 
 div.media img {
-  box-shadow: 3px 6px 20px #000000;
-  border-radius: 10px;
+    box-shadow: 3px 6px 20px #000000;
+    border-radius: 10px;
 }
 
 .emoji {
-  // background-image:url('http://softwareinternational.de/web.whatsapp.com.emoji.png') !important;
+// background-image:url('http://softwareinternational.de/web.whatsapp.com.emoji.png') !important;
 }
 
 .emojik {
- background-image:url('http://softwareinternational.de/web.whatsapp.com.emojik.png') !important;
+    background-image:url('http://softwareinternational.de/web.whatsapp.com.emojik.png') !important;
 }
 
 .block-message, .block-message *{
-  color: #faa !important;
-  font-style: italic;
-  font-size: 1.7em;
-  font-family: 'Zentenar Fraktur';
+    color: #faa !important;
+    font-style: italic;
+    font-size: 1.7em;
+    font-family: 'UnifrakturCook';
 }
 
 /* COPYRIGHT © 2015-2016, Unknown6656 */
