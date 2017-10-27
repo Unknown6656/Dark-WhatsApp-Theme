@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=UnifrakturCook:700');
 
 @font-face {font-family: "Exo 2";
-    src: url("//db.onlinewebfonts.com/t/ef07dc22e614f5520aeed02f4ee75e58.eot");
-    src: url("//db.onlinewebfonts.com/t/ef07dc22e614f5520aeed02f4ee75e58.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/ef07dc22e614f5520aeed02f4ee75e58.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/ef07dc22e614f5520aeed02f4ee75e58.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/ef07dc22e614f5520aeed02f4ee75e58.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/ef07dc22e614f5520aeed02f4ee75e58.svg#Exo 2") format("svg");
+    src: url("http://db.onlinewebfonts.com/t/ef07dc22e614f5520aeed02f4ee75e58.eot");
+    src: url("http://db.onlinewebfonts.com/t/ef07dc22e614f5520aeed02f4ee75e58.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/ef07dc22e614f5520aeed02f4ee75e58.woff2") format("woff2"),
+    url("http://db.onlinewebfonts.com/t/ef07dc22e614f5520aeed02f4ee75e58.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/ef07dc22e614f5520aeed02f4ee75e58.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/ef07dc22e614f5520aeed02f4ee75e58.svg#Exo 2") format("svg");
 }
 
 /* COPYRIGHT © 2015-2016, Unknown6656 */
@@ -28,7 +28,7 @@
 }
 
 body, div#app, .message-text {
-    font-family: 'Exo 2' !important;
+    font-family: 'Exo 2', 'Ubuntu', 'Segoe UI Light', sans-serif !important;
 }
 
 .menu-icons *, .menu-shortcut *, .menu-item * {
@@ -98,7 +98,7 @@ label, button, .chatlist *, .popup-container, .popup-container *,
 [data-reactid=".0.0:$tooltip-manager"] *,
 .drawer-container *, .drawer-container-info *,
 .drawer-container-left *, .drawer-container-panel *,
-.link-preview-container, .link-preview-container *
+.link-preview-container, .link-preview-container *, .block-compose
 {
     border-color: #000 !important;
     background-color: #222 !important;
@@ -142,8 +142,8 @@ label, button, .chatlist *, .popup-container, .popup-container *,
     border: 2px solid #333;
 }
 
-.intro-text-container, .intro-text-container *, .input-search {
-    font-family: 'UnifrakturCook';
+.intro-text-container, .intro-text-container *, .intro-text, .intro-text *, .input-search {
+    font-family: 'UnifrakturCook' !important;
 }
 
 .intro-title {
@@ -164,13 +164,13 @@ label, button, .chatlist *, .popup-container, .popup-container *,
 .message-author, .message-system-body,
 .sticky-date-marker-floating-container,
 .sticky-date-marker-floating-wrapper {
-    font-family: 'UnifrakturCook';
+    font-family: 'UnifrakturCook', 'Zentnar FraKtur', 'Kleist-Fraktur', 'Breitkopf Fraktur', 'Bertholdr Mainzer Fraktur', serif;
     text-transform: lowercase;
     font-size: 1.2em;
 }
 
 .chat-main, .chat-main * {
-    font-family: 'UnifrakturCook';
+    font-family: 'UnifrakturCook', 'Zentnar FraKtur', 'Kleist-Fraktur', 'Breitkopf Fraktur', 'Bertholdr Mainzer Fraktur', serif;
 }
 
 .qrcode {
@@ -202,7 +202,11 @@ div.media img {
     color: #faa !important;
     font-style: italic;
     font-size: 1.7em;
-    font-family: 'UnifrakturCook';
+    font-family: 'UnifrakturCook', 'Zentnar FraKtur', 'Kleist-Fraktur', 'Breitkopf Fraktur', 'Bertholdr Mainzer Fraktur', serif;
+}
+
+.message.message-text *, .message.message-text, .emojitext {
+		color: #eee;
 }
 
 /* COPYRIGHT © 2015-2016, Unknown6656 */
